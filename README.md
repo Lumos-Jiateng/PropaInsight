@@ -3,8 +3,14 @@
 This is the official code repository for our COLING 2025 paper: PropaInsight: PropaInsight: Toward Deeper Understanding of Propaganda in Terms of Techniques, Appeals, and Intent
 
 #### Our New Framework for Analyzing Propaganda Corpus
-![We abstract key elements of propaganda from social science literature. A comprehensive propaganda frame includes the techniques employed, the appeals evoked in readers, and the author’s underlying intent.](https://github.com/Lumos-Jiateng/A-Language-First-Approach-to-Procedural-Planning/blob/main/images/model_architecture_double_infer-page1.jpg)
+![We abstract key elements of propaganda from social science literature. A comprehensive propaganda frame includes the techniques employed, the appeals evoked in readers, and the author’s underlying intent.](https://github.com/Lumos-Jiateng/PropaInsight/blob/main/images/propainsight.png)
 We abstract key elements of propaganda from social science literature. A comprehensive propaganda frame includes the techniques employed, the appeals evoked in readers, and the author’s underlying intent. 
+
+#### Our Partially Controlled Data Generation Pipeline
+
+![Partially controlled data generation pipeline: We first collect real-world news articles and derive an objective summary to extract events. Then we generate event-based intent, and randomly sample specific propaganda techniques to insert into the event descriptions. Lastly, we generate appeals from a reader’s perspective, aiming at making the appeals grounded to the text.](https://github.com/Lumos-Jiateng/PropaInsight/blob/main/images/pipeline.png)
+Partially controlled data generation pipeline: We first collect real-world news articles and derive an objective summary to extract events. Then we generate event-based intent, and randomly sample specific propaganda techniques to insert into the event descriptions. Lastly, we generate appeals from a reader’s perspective, aiming at making the appeals grounded to the text.
+
 
 ### Catalog 
 #### Version-1.0 Update:
