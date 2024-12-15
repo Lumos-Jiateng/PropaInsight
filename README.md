@@ -18,5 +18,5 @@ PropaGaze is a high quality dataset for propaganda analysis where propaganda-ful
 
 ### Catalog 
 #### Version-1.0 Update:
-  1. Release the first dataset designed for Propaganda Analysis: PropaGaze, Updated Dec 13th, 2024
+  1. Release the Human annotation part of PropaGaze, Updated Dec 13th, 2024
  
